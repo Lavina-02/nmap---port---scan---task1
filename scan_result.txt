@@ -1,0 +1,43 @@
+# Nmap 7.95 scan initiated Mon Aug  4 09:33:38 2025 as: /usr/lib/nmap/nmap -sS -oN scan_result.txt 10.157.74.0/24
+Nmap scan report for 10.157.74.1
+Host is up (0.00096s latency).
+Not shown: 977 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+135/tcp   open   msrpc
+1521/tcp  open   oracle
+2030/tcp  closed device2
+5500/tcp  closed hotline
+7070/tcp  open   realserver
+49999/tcp closed unknown
+50300/tcp closed unknown
+50389/tcp closed unknown
+50500/tcp closed unknown
+50636/tcp closed unknown
+50800/tcp closed unknown
+52822/tcp closed unknown
+52848/tcp closed unknown
+52869/tcp closed unknown
+54045/tcp closed unknown
+60020/tcp closed unknown
+60443/tcp closed unknown
+62078/tcp closed iphone-sync
+63331/tcp closed unknown
+64623/tcp closed unknown
+64680/tcp closed unknown
+65000/tcp closed unknown
+65129/tcp closed unknown
+MAC Address: 60:E9:AA:A1:CA:A3 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 10.157.74.141
+Host is up (0.0033s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 4A:CC:77:C7:47:A7 (Unknown)
+
+Nmap scan report for 10.157.74.85
+Host is up (0.0000040s latency).
+All 1000 scanned ports on 10.157.74.85 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Aug  4 09:34:06 2025 -- 256 IP addresses (3 hosts up) scanned in 27.63 seconds
